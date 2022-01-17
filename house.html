@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- start nav -->
+    <nav id="navBar" class="navbar-white">
+        <a href="/index.html"> <img src="/images/logo-red.png" class="logo" alt=""></a>
+         <ul class="nav-links">
+           <li><a href="#" class="active">Popular Place</a></li>
+           <li><a href="/house.html">Travel Outside</a></li>
+           <li><a href="/listing.html">Online pack</a></li>
+         </ul>
+         <a href="#" class="register-btn">Register Now</a>
+         <i class="fas fa-bars" onclick="togglebtn()"></i>
+    </nav>
+    <!-- end nav -->
+
+    <div class="house-details">
+        <div class="house-title">
+            <h1>Wenge House</h1>
+            <div class="row">
+                <div>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                    <span>250 Reviews</span>
+                </div>
+                <div>
+                    <p>Location: San Francisco, California, USA</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <div class="gallery-img-1"><img src="/images/house-1.png" alt=""></div>
+            <div><img src="/images/house-2.png" alt=""></div>
+            <div><img src="/images/house-3.png" alt=""></div>
+            <div><img src="/images/house-4.png" alt=""></div>
+            <div><img src="/images/house-5.png" alt=""></div>
+        </div>
+        <div class="small-details">
+            <h2>Entrie rental unit hosted by Brandon</h2>
+            <p>2 guest &nbsp; &nbsp; 2 beds &nbsp; &nbsp; 1 bathroom </p>
+            <h4>$ 100 / day</h4>
+        </div>
+        <hr class="line">
+        <form class="check-form">
+            <div>
+                <label>Check-In</label>
+                <input type="text" placeholder="Add Date">
+            </div>
+
+            <div>
+                <label>Check-out</label>
+                <input type="text" placeholder="Add Date">
+            </div>
+
+            <div class="guest-field">
+                <label>Guest</label>
+                <input type="text" placeholder="2 Guest">
+            </div>
+            <button type="submit">Check Availability</button>
+        </form>
+
+        <ul class="details-list">
+            <li><i class="fas fa-home" aria-hidden="true"></i> Entrie Home
+                <span>You will have the entrie flat for you</span>
+            </li>
+
+            <li><i class="fas fa-paint-brush" aria-hidden="true"></i> Enchanced
+                <span>This host has commited to staybnb's cleaning proccess</span>
+            </li>
+
+            <li><i class="fas fa-map-marker" aria-hidden="true"></i> Great Location
+                <span>90% of recent guests gave the location a 5 star rating</span>
+            </li>
+
+            <li><i class="fas fa-heart" aria-hidden="true"></i> Great Check-in Exprience
+                <span>100% of recent guests gave the check-in proccess  a5 star rating</span>
+            </li>
+        </ul>
+
+        <hr class="line">
+        <p class="home-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quis explicabo in, minima fuga tenetur, exercitationem autem sapiente optio ad a ipsa velit, ratione quae officiis consectetur. Dicta saepe perspiciatis iusto quibusdam a impedit ullam totam consequatur delectus sint, architecto accusamus iure dolor quae laboriosam, porro sunt aliquam harum? Nihil laboriosam dolores ducimus laudantium qui corrupti deserunt modi, eum similique iure magni incidunt odio a aliquam voluptates aperiam impedit rem rerum cumque facilis sit aspernatur. Maxime blanditiis, provident eaque explicabo odit cum quas architecto autem? Numquam accusamus consequuntur libero nisi! Reprehenderit quibusdam deleniti possimus dolor laudantium adipisci quia quidem reiciendis?</p>
+        <hr class="line">
+
+        <div class="map">
+            <h3>Location on map</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12616.769892368839!2d-122.44949877210667!3d37.762084897125355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1642431331866!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <b>San Francisco, California, USA</b>
+            <p>It's like a home away from home.</p>
+        </div>
+
+        <hr class="line">
+
+        <div class="host">
+            <img src="/images/host.png" alt="">
+            <h2>Hosted By Joe</h2>
+            <p>
+                <span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </span>&nbsp;&nbsp; 250 Reviews &nbsp; &nbsp; reponse rate 100% &nbsp; &nbsp; response time: 60min
+            </p>
+        </div>
+
+        <a href="#" class="contact-host">Contact Host</a>
+    </div>
+    <div class="container">
+        <div class="footer">
+            <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://youtube.com"><i class="fab fa-youtube"></i></a>
+            <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+            <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+            <hr>
+            <p>@Contact with us</p>
+        </div>
+    </div>
+
+    <script>
+        var navBar = document.getElementById("navBar");
+        function togglebtn(){
+          navBar.classList.toggle("hidemenu")
+        }
+     </script>
+    
+</body>
+</html>
